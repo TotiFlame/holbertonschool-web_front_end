@@ -179,7 +179,7 @@ ul.row {
 }
 
 .social-link {
-    vertical-align: bottom;
+    display: block;
 }
 
 .social-link > svg {
