@@ -182,7 +182,7 @@ ul.row {
     vertical-align: bottom;
 }
 
-.social-link svg {
+.social-link > svg {
     fill: var(--text-color);
 }
 
