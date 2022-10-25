@@ -133,7 +133,7 @@ ul.row {
 .card-services a:hover {
     color: var(--color-white);
     background-color: var(--color-primary);
-    font-style: none;
+    text-decoration: none;
 }
 
 .section {
