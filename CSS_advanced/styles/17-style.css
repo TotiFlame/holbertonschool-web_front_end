@@ -88,24 +88,16 @@ a:active {
 
 .section {
     padding: var(--section-padding);
-    /*padding-right: var(--section-padding);
-    padding-top: var(--section-padding);
-    padding-bottom: var(--section-padding);*/
 }
 
 .section-header {
     text-align: var(--section-header-align);
     padding: var(--section-header-padding);
-    /*padding-right: var(--section-header-padding);
-    padding-top: var(--section-header-padding);
-    padding-bottom: var(--section-header-padding);*/
 }
 
 .section-body {
-    padding-left: var(--section-body-padding);
-    padding-top: var(--section-body-padding);
-    padding-bottom: var(--section-body-padding);
-    padding-right: var(--section-body-padding);
+    padding: var(--section-body-padding);
+    text-align: var(--section-footer-align);
 }
 
 .section-tagline {
@@ -127,4 +119,8 @@ a:active {
     font-weight: var(--font-weight-bold);
     margin: var(--section-title-margin);
     color: var(--section-title-color);
+}
+
+.footer {
+    padding: var(--footer-padding);
 }
